@@ -1,0 +1,192 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  margin: 15 0;
+  background-color: var(--color-fondo-body);
+}
+
+/* colores */
+:root {
+  --color-fondo-container: rgba(111, 30, 75, 1);
+  --color-fondo-body: rgb(226, 221, 221);
+  --color-formulario: rgba(236, 235, 235, 1);
+}
+
+/* contenedor del login y register */
+
+.container-login {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 600px;
+  background-color: var(--color-fondo-container);
+  -webkit-box-shadow: 13px 11px 29px -8px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 13px 11px 29px -8px rgba(0, 0, 0, 0.56);
+  box-shadow: 13px 11px 29px -8px rgba(0, 0, 0, 0.56);
+}
+
+
+/* logo parte izquierda */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95%;
+  width: 50%;
+  margin-left: 20px;
+}
+
+/* Ajuste de logo parte izquierda */
+.logo img {
+  height: 500px;
+  width: 700px;
+}
+
+/* contenedor formulario */
+.formulario-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95%;
+  width: 50%;
+  margin-right: 20px;
+}
+
+
+/* icono parte superior */
+.formulario-login .icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 20px;
+  height: 120px;
+  width: 120px;
+  background-color: rgba(236, 235, 235, 1);
+  border-radius: 100%;
+  border: solid 3.5px var(--color-fondo-container);
+}
+
+/* Ajuste del icono superior del formulario */
+.formulario-login .icon img {
+  height: 60px;
+  width: 106px;
+}
+
+/* Formulario */
+.formulario-login .formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  height: 500px;
+  width: 93%;
+  background-color: var(--color-formulario);
+  border-radius: 11px;
+  -webkit-box-shadow: 13px 11px 29px -8px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 13px 11px 29px -8px rgba(0, 0, 0, 0.56);
+  box-shadow: 13px 11px 29px -8px rgba(0, 0, 0, 0.56);
+}
+
+.titulo h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    margin-bottom: -1px;
+    /* background-color: blue; */
+
+}
+
+.input-usuario {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 90%;
+    /* background-color: red; */
+}
+
+.input-usuario input{
+    width: 80%;
+    height: 30px;
+    margin-bottom: -5px;
+}
+
+.input-usuario p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input-contrasena{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 90%;
+    /* background-color: red; */
+}
+
+.input-contrasena input{
+    width: 80%;
+    height: 30px;
+    margin-bottom: -5px;
+
+}
+
+.input-contrasena p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.formulario .boton-recordatorio{
+    width: 80%;
+    height: 80px;
+    /* background-color: blue; */
+}
+
+.iconos-redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 60px;
+    /* background-color: red; */
+}
+
+.iconos-redes img{
+    height: 40px;
+    width: 40px;
+}
+
+.boton-iniciar-sesion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 90%;
+    /* background-color: blue; */
+}
+
+.boton-iniciar-sesion button{
+    height: 40px;
+}
+
+.footer-formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+}
